@@ -121,8 +121,3 @@ jobs:
 ```md
 [![action-bumpr supported](https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&link=https://github.com/haya14busa/action-bumpr)](https://github.com/haya14busa/action-bumpr)
 ```
-
-### Note
-action-bumpr uses push on master event to run workflow instead of pull_request
-closed (merged) event because github token doesn't have write permission
-for pull_request from fork repository.
